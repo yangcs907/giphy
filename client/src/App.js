@@ -5,7 +5,7 @@ import Auth from './Auth';
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
 import Callback from './components/Callback';
-import NotFound from './components/404';
+//import NotFound from './components/404';
 
 class App extends Component {
   render() {
@@ -46,7 +46,7 @@ class App extends Component {
               <Callback processAuth={auth.processAuthentication} />
             )} />
 
-            <Route component={NotFound} />
+
           </Switch>
 
         </div>
